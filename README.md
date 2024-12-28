@@ -1,4 +1,4 @@
-# veterinaria
+# digitalizadas
 
 ## Project setup
 ```
