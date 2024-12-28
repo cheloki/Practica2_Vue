@@ -1,0 +1,11 @@
+
+Practica2 Vue3
+
+Nombre(s) de integrante(s):
+- Marcelo Erik Guzman Morales
+
+Pasos para iniciar el proyecto
+1) npm install
+2) npm install -g  json-server@0.17.1
+3) json-server --watch db.json --port 4000 
+4) npm run serve

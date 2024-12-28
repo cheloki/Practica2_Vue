@@ -1,0 +1,75 @@
+{
+  "portaobjetos": [
+    {
+      "id": 1,
+      "nombre": "Portaobjeto A",
+      "descripcion": "Un portaobjetos utilizado para muestras biológicas.",
+      "categoriaId": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Portaobjeto B",
+      "descripcion": "Portaobjetos para análisis químicos.",
+      "categoriaId": 2,
+      "categoria": {
+        "id": 2,
+        "nombre": "Química",
+        "descripcion": "Portaobjetos utilizados en análisis químicos."
+      }
+    }
+  ],
+  "imagenes": [
+    {
+      "id": 1,
+      "ruta": "imagenes/portaobjetoA_1.jpg",
+      "descripcion": "Imagen 1 del Portaobjeto A",
+      "portaobjetoId": 1
+    },
+    {
+      "id": 2,
+      "ruta": "imagenes/portaobjetoA_2.jpg",
+      "descripcion": "Imagen 2 del Portaobjeto A",
+      "portaobjetoId": 1
+    },
+    {
+      "id": 3,
+      "ruta": "imagenes/portaobjetoB_1.jpg",
+      "descripcion": "Imagen 1 del Portaobjeto B",
+      "portaobjetoId": 2
+    },
+    {
+      "ruta": "116715b7-065e-4093-90ec-0cb31987a818.jpg",
+      "descripcion": "imagen 3 del portaobjeto B",
+      "portaobjetoId": 2,
+      "id": 8,
+      "portaobjeto": {
+        "id": 2,
+        "nombre": "Portaobjeto B",
+        "descripcion": "Portaobjetos para análisis químicos.",
+        "categoriaId": 2,
+        "categoria": {
+          "id": 2,
+          "nombre": "Química",
+          "descripcion": "Portaobjetos utilizados en análisis químicos."
+        }
+      }
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Biología",
+      "descripcion": "Portaobjetos utilizados en estudios biológicos."
+    },
+    {
+      "id": 2,
+      "nombre": "Química",
+      "descripcion": "Portaobjetos utilizados en análisis químicos."
+    },
+    {
+      "nombre": "Farmaceutica",
+      "descripcion": "Portaobjetos utilizados para muestras",
+      "id": 3
+    }
+  ]
+}
