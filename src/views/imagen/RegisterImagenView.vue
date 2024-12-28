@@ -23,7 +23,7 @@
       <div class="form-group">
         <label for="description">Descripción:</label>
         <input type="text" id="description" v-model="form.descripcion" :class="{ 'is-invalid': errors.descripcion }"
-          placeholder="Ingrese el teléfono" />
+          placeholder="Ingrese la descripción" />
         <div v-if="errors.descripcion" class="invalid-feedback">{{ errors.descripcion }}</div>
       </div>
 
